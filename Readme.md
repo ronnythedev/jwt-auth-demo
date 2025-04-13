@@ -2,7 +2,7 @@
 
 A lightweight, open-source ASP.NET Core application demonstrating JWT (JSON Web Token) authentication implementation.
 
-It’s a companion to [my post](https://ronnydelgado.com/), where I dive deeper.
+It’s a companion to [my post](https://www.ronnydelgado.com/my-blog/mastering-jwt-authentication-a-comprehensive-guide-with-hands-on-mini-project), where I dive deeper.
 
 ## Overview
 
