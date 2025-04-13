@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthDemo", "JwtAuthDemo.csproj", "{151C3EE3-7D0B-45FF-BD1C-7A3A0106900A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151C3EE3-7D0B-45FF-BD1C-7A3A0106900A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151C3EE3-7D0B-45FF-BD1C-7A3A0106900A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151C3EE3-7D0B-45FF-BD1C-7A3A0106900A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151C3EE3-7D0B-45FF-BD1C-7A3A0106900A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

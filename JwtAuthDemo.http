@@ -1,0 +1,39 @@
+@JwtAuthDemo_HostAddress = http://localhost:5000
+
+### Register a new user
+POST {{JwtAuthDemo_HostAddress}}/api/Auth/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "Test@123"
+}
+
+### Login with existing credentials
+POST {{JwtAuthDemo_HostAddress}}/api/Auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "Test@123"
+}
+
+### Refresh the token
+POST {{JwtAuthDemo_HostAddress}}/api/Auth/refresh
+Content-Type: application/json
+
+{
+  "refreshToken": "your-refresh-token-here"
+}
+
+### Revoke a refresh token
+POST {{JwtAuthDemo_HostAddress}}/api/Auth/revoke
+Content-Type: application/json
+
+{
+  "refreshToken": "the-refresh-token-to-revoke"
+}
+
+### Access a protected endpoint
+GET {{JwtAuthDemo_HostAddress}}/api/Auth/protected
+Authorization: Bearer your-access-token-here
